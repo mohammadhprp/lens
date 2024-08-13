@@ -36,3 +36,4 @@ saved_model/**/* filter=lfs diff=lfs merge=lfs -text
 models/pretrained_effnetb2_feature_extractor_food101_20_percent.pth filter=lfs diff=lfs merge=lfs -text
 models/*.pth filter=lfs diff=lfs merge=lfs -text
 models/pretrained_effnetb2_feature_extractor_food101_100_percent.pth filter=lfs diff=lfs merge=lfs -text
+data/food.zip filter=lfs diff=lfs merge=lfs -text
