@@ -73,7 +73,6 @@ demo = gr.Interface(
     examples=example_list,
     title=title,
     description=description,
-    article=article,
 )
 
 # Launch the app!
