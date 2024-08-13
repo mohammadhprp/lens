@@ -21,7 +21,7 @@ effnetb2, effnetb2_transforms = create_effnetb2_model(
 # Load saved weights
 effnetb2.load_state_dict(
     torch.load(
-        f="models/09_pretrained_effnetb2_feature_extractor_food101_20_percent.pth",
+        f="models/pretrained_effnetb2_feature_extractor_food101_100_percent.pth",
         map_location=torch.device("cpu"),  # load to CPU
     )
 )
