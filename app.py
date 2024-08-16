@@ -1,11 +1,11 @@
 ### 1. Imports and class names setup ### 
-import gradio as gr
 import os
+import gradio as gr
 import torch
-
-from model import create_effnetb2_model
 from timeit import default_timer as timer
 from typing import Tuple, Dict
+
+from model import create_effnetb2_model
 
 # Setup class names
 with open("class_names.txt", "r") as f: # reading them in from class_names.txt
